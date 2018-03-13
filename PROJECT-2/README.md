@@ -14,19 +14,19 @@
 
 #### ftserver.c
 1. `$ make all`
-2. `$ ./ftserver <PORT>`
+2. `$ ./ftserver <PORT>`  
 **EXAMPLE**  
 `$ ./ftserver 52364`
 3. `$ make clean` Optional
 
 #### ftclient.py
-1. `$ python ftclient.py <SERVER HOSTNAME><SERVER PORT><COMMAND><DATA PORT>`
+1. `$ python ftclient.py <SERVER HOSTNAME><SERVER PORT><COMMAND><DATA PORT>`  
 **EXAMPLES**  
 `$ python ftclient.py flip2.engr.oregonstate.edu 52364 -l 52365`  
 `$ python ftclient.py flip2.engr.oregonstate.edu 52364 -g small_test.txt 52365`  
 
 ### Extra Credit  
-- Colored + Blinking text & ASCII emojis (required explicit declaration in .py file and escape sequences in both files)
+- Colored + Blinking text & ASCII emojis (required explicit declaration in `.py` file and escape sequences in both files)
 
 ### References
  **REFERENCES: ftserver.c**
