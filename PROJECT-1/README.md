@@ -10,10 +10,10 @@
 - Terminate the connection between server and client with `\quit`
 - Terminate _chatserver.py_ with CTRL + C
 
-*RUN chatserver.py* 
-```$ python chatserver.py <port number>```
-EXAMPLE:
-```$ python chatserver.py 52364```
+*RUN chatserver.py*  
+- ```$ python chatserver.py <port number>```
+EXAMPLE:  
+- ```$ python chatserver.py 52364```
 
 ### chatclient.c
 - Ensure _Makefile_ resides within the same directory as _chatclient.c_
@@ -23,12 +23,12 @@ EXAMPLE:
  - Initiate _chatserver.py_ prior to starting _chatclient.c_
  - Terminate _chatclient.c_ with `\quit`
 
-*RUN chatclient.c*
-```$ make all```
-```$ ./chatclient <server hostname> <port number>```
-EXAMPLE:
-```$ ./chatclient flip3.engr.oregonstate.edu 52364```
-```$ make clean``` deletes _chatclient_ (executable)
+*RUN chatclient.c*  
+- ```$ make all```
+- ```$ ./chatclient <server hostname> <port number>```
+EXAMPLE:  
+- ```$ ./chatclient flip3.engr.oregonstate.edu 52364```
+- ```$ make clean``` deletes _chatclient_ (executable)
 
 ### EXTRAS:
 - Neither server nor client _handles_ are hard-coded
